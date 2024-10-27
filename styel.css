@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Banner Section */
+.banner-section {
+    background-image: url(./assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 520px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-contant {
+    padding-top: 90px;
+}
+
+/* Blog Section */
+.blog-title {
+    text-align: center;
+    padding: 0 100px;
+    margin: 50px 0 60px 0;
+}
+
+.blog-body {
+    padding: 0 260px;
+}
+
+.blog-1, .blog-2, .blog-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+/* Ensure that blog-2 is reversed */
+.blog-2 {
+    flex-direction: row-reverse;
+}
+.blog-h{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.blog-p{
+    margin-bottom: 5px;
+}
+
+/* Inspiration Section */
+.inspiring {
+    text-align: center;
+    padding: 0 120px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+   
+}
+.inspiring-contant{
+    margin-bottom: 50px;
+}
+
+/* Video Section */
+.contant-video {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;  */
+    display: block; 
+    text-align: center; 
+    margin-top: 80px ;
+}
+.contant-video iframe {
+    width: 100%; 
+    max-width: 560px; 
+    height: 315px;
+    float: center; 
+    margin-right: 20px; 
+}
+.targets{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inside-card{
+    text-align: left;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}  
+.inside-card2{
+    text-align: left;
+    background-color: aquamarine ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}  
+
+
+
+.next-target{
+ 
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.cards-contant{
+    display: flex;
+    border: 1px solid ;
+    color: black;
+    border-radius: 10px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    
+}
+.contant-img{
+    margin-top: 30px;
+    
+}
+.contant-text{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+/* Feedback Section */
+.feedback-section{
+  
+  position: relative;
+ 
+} 
+.handshake-img{
+    height: 450px;
+    width: 1300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.feedback {
+    
+    position: absolute;
+  top: 50%;
+  left: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+
+}
+.heading-color{
+    color: white;
+}
+.paragraph-color{
+    color: gray;
+}
+.input-txt{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+/* all button  */
+
+.contuc-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; 
+    background-color: black;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black; 
+    background-color: white;
+}
+.learnmore-btn{
+
+    padding: 7px 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: gray;
+}
